@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messaging - CareerMent</title>
+    <link rel="stylesheet" href="style_mess.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CareerMent</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="manageNet.html">My Network</a></li>
+                <li><a href="newx.html">Find Mentor</a></li>
+                <li><a href="#">Messaging</a></li>
+                <li><a href="notification.html">Notifications</a></li>
+                <li><a href="https://generous-wildcat-unbiased.ngrok-free.app/peer" target="_blank">Join Meeting</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="messaging-container">
+        <!-- Sidebar with chat list -->
+        <div class="chat-list">
+            <h2>Messaging</h2>
+            <input type="text" class="search-box" placeholder="Search messages">
+            <div class="tab">
+                <button class="tablinks active">Focused</button>
+                <button class="tablinks">Other</button>
+            </div>
+            <div class="chat-items">
+                <div class="chat-item" data-chat="1">
+                    <img src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725321600&semt=ais_hybrid" alt="no image " class="message-pic">
+                    <div class="chat-info">
+                        <h3>Fateh Education</h3>
+                        <p>Hi Dhruv Patel Are you excited about studying...</p>
+                    </div>
+                    <span class="chat-date">Aug 16</span>
+                </div>
+                <div class="chat-item" data-chat="2">
+                    <img src="https://www.shutterstock.com/image-photo/profile-picture-smiling-successful-young-260nw-2040223583.jpg" alt="" class="message-pic">
+                    <div class="chat-info">
+                        <h3>Pihu Kushwah</h3>
+                        <p>Hi Thanks for Connecting...</p>
+                    </div>
+                    <span class="chat-date">Aug 14</span>
+                </div>
+                <div class="chat-item" data-chat="3">
+                    <img src="https://www.shutterstock.com/image-photo/close-portrait-smiling-30s-caucasian-260nw-2246095709.jpg" alt="" class="message-pic">
+                    <div class="chat-info">
+                        <h3>Vijay S</h3>
+                        <p>Hii Dhruv, Thanks for Connecting...</p>
+                    </div>
+                    <span class="chat-date">Aug 7</span>
+                </div>
+                <div class="chat-item" data-chat="4">
+                    <img src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725321600&semt=ais_hybrid" alt="no image " class="message-pic">
+                    <div class="chat-info">
+                        <h3>Param Jani</h3>
+                        <p>Hello Dhruv! Myself Param Jani...</p>
+                    </div>
+                    <span class="chat-date">Jan 5</span>
+                </div>
+                <div class="chat-item" data-chat="5">
+                    <img src="https://www.shutterstock.com/image-photo/profile-picture-smiling-successful-young-260nw-2040223583.jpg" alt="" class="message-pic">
+                    <div class="chat-info">
+                        <h3>Hiral Patel</h3>
+                        <p>Are you looking for a mentor? Please drop a text...</p>
+                    </div>
+                    <span class="chat-date">Sep 29, 2023</span>
+                </div>
+                <!-- Add more demo chats here -->
+            </div>
+        </div>
+
+        <!-- Chat display area -->
+        <div class="chat-display">
+            <div id="chat-1" class="chat-content" >
+                
+                <h3>Fateh Education</h3>
+                <div class="messages">
+                    <p>Hi Dhruv Patel Are you excited about studying...</p>
+                </div>
+            </div>
+            <div id="chat-2" class="chat-content">
+                <h3>Pihu Kushwah</h3>
+                <div class="messages">
+                    <p>Hi Thanks for Connecting...</p>
+                </div>
+            </div>
+            <div id="chat-3" class="chat-content">
+                <h3>Vijay S</h3>
+                <div class="messages">
+                    <p>Hii Dhruv, Thanks for Connecting...</p>
+                </div>
+            </div>
+            <div id="chat-4" class="chat-content">
+                <h3>Param Jani</h3>
+                <div class="messages">
+                    <p>Hello Dhruv! Myself Param Jani 😊 Currently I'm looking for...</p>
+                </div>
+            </div>
+            <div id="chat-5" class="chat-content">
+                <h3>Hiral Patel</h3>
+                <div class="messages">
+                    <p>Are you looking for a mentor? Please drop a text or share your resume.</p>
+                </div>
+            </div>
+            <!-- Add more chat content here -->
+
+            <!-- Message input bar -->
+            <div class="message-input">
+                <input type="text" id="messageInput" placeholder="Type a message...">
+                <button id="sendMessage">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script_mess.js"></script>
+</body>
+</html>
