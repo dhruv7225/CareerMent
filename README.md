@@ -2,6 +2,9 @@
 
 **CareerMent** is a full-stack mentorship platform designed to connect students and professionals with experienced mentors for personalized career guidance. It supports real-time communication, mentorship requests, scheduling, and profile customization.
 
+## 🔗 Live Demo
+
+🚀 [Click here to try CareerMent Live](https://careerment.codeofbytes.com) 
 ---
 
 ## 🚀 Features
