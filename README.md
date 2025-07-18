@@ -40,7 +40,8 @@
 ### 🏠 Mentee Dashboard
 Browse mentors, send tie-up requests, view posts.  
 <img width="1710" height="1107" alt="Screenshot 2025-07-18 at 4 16 29 PM" src="https://github.com/user-attachments/assets/88d1d85f-43a3-4538-87bf-14418e672955" />
-<img width="1710" height="1107" alt="Screenshot 2025-07-18 at 4 16 29 PM" src="https://github.com/user-attachments/assets/15325139-cde1-4358-84ae-c77730c5ad1c" />
+<img width="1710" height="1107" alt="Screenshot 2025-07-18 at 4 16 36 PM" src="https://github.com/user-attachments/assets/cd222fd5-f3d6-4705-94db-d533f3bc2a80" />
+
 
 ---
 
